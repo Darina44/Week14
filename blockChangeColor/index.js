@@ -1,5 +1,8 @@
 // alert("Ghbdtn");
 
 let elem = document.getElementById('block');
-let length = elem.classList.length;
-console.log(length)
+console.log(elem.classList);
+function changeMe () {
+    elem.classList.toggle('background__blue');
+}
+
