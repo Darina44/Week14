@@ -1,30 +1,28 @@
 
-// function add() {
-//     const firstNumber = prompt('первое слагаемое', '');
-//     const secondNumber = prompt('второе слагаемое', '');
-//     alert(`Результат: ${+firstNumber + +secondNumber}`);
-// }
 
-// function subtract() {
-//     const firstNumber = prompt('уменьшаемое', '');
-//     const secondNumber = prompt('вычитаемое', '');
-//     alert(`Результат: ${+firstNumber - +secondNumber}`);
-// }
+var op; 
 
-// function multiply() {
-//     const firstNumber = prompt('первый множитель', '');
-//     const secondNumber = prompt('второй множитель', '');
-//     alert(`Результат: ${+firstNumber * +secondNumber}`);
-// }
+function func() {
 
-// function divide() {
-//     const firstNumber = prompt('делимое', '');
-//     const secondNumber = prompt('делитель', '');
-//     alert(`Результат: ${+firstNumber / +secondNumber}`);
-// }
+var result;
 
-alert('dfs');
+var num1 = Number(document.getElementById("num1").value);
+var num2 = Number(document.getElementById("num2").value);
 
-let firstAddedInput = 
-document.getElementById('firstAdded');
-console.log(firstAddedInput.value);
+switch (op) {
+    case '+':
+        result = num1 + num2;
+        break;
+    case '-':
+        result = num1 - num2;
+        break;
+    case '*':
+        result = num1 * num2;
+        break;
+    case '/':
+        result = num1 / num2;
+        break;
+    }
+
+document.getElementById("result").innerHTML = result;
+}

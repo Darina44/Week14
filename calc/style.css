@@ -1,34 +1,7 @@
-body {
+.wrapper {
+    width: fit-content;
     display: flex;
     justify-content: center;
     font-weight: bold;
-
-}
-
-.wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin-top: 5%;
-    border: 1px solid grey;
-    border-radius: 3%;
-    box-shadow: 5px 5px 10px rgba(82, 77, 77, 0.223);
-    padding: 2%;
-}
-
-.btn {
-    background-color: rgb(230, 230, 230);
-    border: 1px rgb(118, 117, 117) solid;
-    border-radius: 7%;
-    text-align: center;
-    margin: 10% 15%;
-    padding: 5% 10%;
-    box-shadow: 5px 5px 10px rgba(82, 77, 77, 0.223);
-    font-size: 1.1em;
-    display: flex;
-    flex-flow: column;
-}
-
-.background {
-
+    flex-direction: column;
 }
