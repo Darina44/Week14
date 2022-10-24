@@ -22,7 +22,9 @@
 //     const secondNumber = prompt('делитель', '');
 //     alert(`Результат: ${+firstNumber / +secondNumber}`);
 // }
+
 alert('dfs');
+
 let firstAddedInput = 
 document.getElementById('firstAdded');
-console.log(firstAddedInput);
+console.log(firstAddedInput.value);
