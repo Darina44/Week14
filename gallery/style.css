@@ -1,0 +1,10 @@
+body {
+    width: fit-content;
+}
+
+.btns {
+    margin-top: 1em;
+    display: flex;
+    flex: row nowrap;
+    justify-content: space-around;
+}
